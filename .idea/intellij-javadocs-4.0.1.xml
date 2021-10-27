@@ -131,7 +131,7 @@
         <METHOD>
           <KEY>^.*((public\s+static)|(static\s+public))\s+void\s+main\s*\(\s*String\s*(\[\s*\]|\.\.\.)\s+\w+\s*\).+</KEY>
           <VALUE>/**\n
- * The entry point of application.\n
+ * the entry point of application.\n
 
      &lt;#if element.parameterList.parameters?has_content&gt;
          *\n
