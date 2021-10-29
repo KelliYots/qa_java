@@ -9,7 +9,7 @@ public class CatGetSoundTest {
 
     @Test
     public void catGetSoundTest() {
-    String actualSound = cat.getSound();
-    assertEquals("Мяу", actualSound);
+        String actualSound = cat.getSound();
+        assertEquals("Мяу", actualSound);
     }
 }
