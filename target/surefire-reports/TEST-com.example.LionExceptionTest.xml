@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="com.example.FelineClassTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.example.LionExceptionTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -59,10 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.example.FelineClassTest" name="testGetKittensWithArgument[0]" time="0"/>
-  <testcase classname="com.example.FelineClassTest" name="getKittensNoArgument[0]" time="0"/>
-  <testcase classname="com.example.FelineClassTest" name="testGetKittensWithArgument[1]" time="0"/>
-  <testcase classname="com.example.FelineClassTest" name="getKittensNoArgument[1]" time="0"/>
-  <testcase classname="com.example.FelineClassTest" name="testGetKittensWithArgument[2]" time="0.001"/>
-  <testcase classname="com.example.FelineClassTest" name="getKittensNoArgument[2]" time="0"/>
+  <testcase classname="com.example.LionExceptionTest" name="doesHaveManeTest" time="0"/>
 </testsuite>
