@@ -25,9 +25,9 @@ public class LionTest {
 
     @Test
     public void lionGetKittensWillReturnOneTest() {
-        int actualCittensCount = testFeline.getKittens();
+        int actualKittensCount = testFeline.getKittens();
         int expectedKittenCount = 1;
-        assertEquals(expectedKittenCount, actualCittensCount);
+        assertEquals(expectedKittenCount, actualKittensCount);
     }
 
     @Test
