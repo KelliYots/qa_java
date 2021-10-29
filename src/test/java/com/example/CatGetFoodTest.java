@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CatGetFoodTest {
     @Test
-    public void shouldGetFoodAsPredator() throws Exception {
+    public void catFoodTest() throws Exception {
         Cat cat = new Cat(new Feline());
         List<String> expectedFood = new ArrayList<>();
         expectedFood.add("Животные");
