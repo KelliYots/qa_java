@@ -11,7 +11,7 @@ public class FelineClassTest {
 
     private final int kittensCount;
     private final int expectedKittenCounts;
-    Feline feline = new Feline();
+    Feline testFeline = new Feline();
 
     public FelineClassTest(int kittensCount, int expectedKittenCounts) {
         this.kittensCount = kittensCount;
@@ -29,12 +29,12 @@ public class FelineClassTest {
 
     @Test
     public void getKittensNoArgument() {
-        assertEquals(1, feline.getKittens());
+        assertEquals(1, testFeline.getKittens());
     }
 
     @Test
     public void testGetKittensWithArgument() {
-        int actual = feline.getKittens(kittensCount);
+        int actual = testFeline.getKittens(kittensCount);
         assertEquals(expectedKittenCounts, actual);
     }
 }

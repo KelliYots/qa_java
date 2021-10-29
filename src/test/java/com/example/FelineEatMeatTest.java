@@ -9,11 +9,11 @@ import static org.junit.Assert.assertEquals;
 
 public class FelineEatMeatTest {
 
-    Feline feline = new Feline();
+    Feline testFeline = new Feline();
 
     @Test
     public void eatMeat() throws Exception {
-        List<String> actualList = feline.eatMeat();
+        List<String> actualList = testFeline.eatMeat();
         List<String> expectedList = Arrays.asList("Животные", "Птицы", "Рыба");
         assertEquals(expectedList, actualList);
     }

@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FelineGetFamilyTest {
-    Feline feline = new Feline();
+    Feline testFeline = new Feline();
 
     @Test
     public void felineGetFamilyTest() {
-        String actualFamily = feline.getFamily();
+        String actualFamily = testFeline.getFamily();
         assertEquals("Кошачьи", actualFamily);
     }
 }
