@@ -7,15 +7,14 @@ import org.junit.runners.Parameterized;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class FelineClassTest {
-
+public class FelineParametrizedTest {
     private final int kittensCount;
-    private final int expectedKittenCounts;
+    private final int expectedKittensCount;
     Feline testFeline = new Feline();
 
-    public FelineClassTest(int kittensCount, int expectedKittenCounts) {
-        this.kittensCount = kittensCount;
-        this.expectedKittenCounts = expectedKittenCounts;
+    public FelineParametrizedTest(int kittensCount, int expectedKittensCount) {
+    this.kittensCount = kittensCount;
+    this.expectedKittensCount = expectedKittensCount;
     }
 
     @Parameterized.Parameters
@@ -28,13 +27,9 @@ public class FelineClassTest {
     }
 
     @Test
-    public void getKittensNoArgument() {
-        assertEquals(1, testFeline.getKittens());
-    }
-
-    @Test
     public void testGetKittensWithArgument() {
         int actual = testFeline.getKittens(kittensCount);
-        assertEquals(expectedKittenCounts, actual);
+        assertEquals(expectedKittensCount, actual);
     }
+
 }
