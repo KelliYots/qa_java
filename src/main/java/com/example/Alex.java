@@ -1,3 +1,4 @@
+/*
 package com.example;
 
 import java.util.List;
@@ -21,3 +22,4 @@ public class Alex extends Lion {
         return "Нью-Йоркский Зоопарк";
     }
 }
+*/
